@@ -19,6 +19,6 @@ public class Doctor extends Person {
 
 	@Override
 	public void getDetails() {
-		System.out.println("Nombre completo: " + name + " " + surname + ", " + specialization);
+		System.out.println("Nombre completo: " + super.name + " " + super.surname + ", " + this.specialization);
 	}
 }
